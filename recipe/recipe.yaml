@@ -8,8 +8,6 @@ package:
 source:
   url: https://github.com/ccache/ccache-storage-http-cpp/archive/refs/tags/v${{ version }}.tar.gz
   sha256: 6d996fd99b52248c26c1be7d66db0f7050dedfee02b15b4dfef9e72daf7359fb
-  patches:
-    - windows-install-copy.patch
 
 build:
   number: 0
