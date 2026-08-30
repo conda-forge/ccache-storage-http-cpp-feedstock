@@ -1,5 +1,5 @@
 context:
-  version: "0.9"
+  version: "0.10"
 
 package:
   name: ccache-storage-http-cpp
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ccache/ccache-storage-http-cpp/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: fe9434f51f86724fd9d4b1fe2e1dac41054deef3ec077f249c33de208917f938
+  sha256: 7b064232ca5f91835cb859a3e83dc6a16cba6dba26940c2b46f4084f2cc4c9db
 
 build:
   number: 0
